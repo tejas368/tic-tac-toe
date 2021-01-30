@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TIC TAC TOE GAME</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js" defer ></script>
+</head>
+<body>
+    <div class="board" id="board">      <!--yaha board class ke sath humlog ek bar X aur ek baar circle likhenege taaki css me change dekh ske-->
+        <div class="cell" data-cell></div>    <!--yaha humlog x daale the check krne ke liye class me-->
+        <div class="cell" data-cell></div>       <!--yaha humlog circle daale the check krne ke liye class me-->
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+    </div>
+
+    <div class="winning-message" id="winningMessage">      <!--yaha experiment krna hai css me cgange dikhaane ke liye ...pehle yaha show likhna tha taaki show asal use pta chal paaye uske baad hta dena hai...yaha show likhenge tbhi black screen wla display hoga-->
+        <div data-winning-message-text></div>
+        <button id="restartButton">Restart</button>
+    </div>
+    
+</body>
+</html>
